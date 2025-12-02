@@ -1,0 +1,30 @@
+# Ignore target (except the final jar if you want)
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Maven folders
+.mvn/
+.m2/
+
+# Git
+.git
+.gitignore
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.sts4/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary
+logs/
+*.log
