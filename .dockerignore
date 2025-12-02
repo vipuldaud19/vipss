@@ -1,14 +1,10 @@
-# Ignore target (except the final jar if you want)
-target/
-!.mvn/wrapper/maven-wrapper.jar
+# Ignore Maven build folder except the final JAR
+target/*
+!target/*.jar
 
-# Maven folders
+# Maven wrapper and cache
 .mvn/
 .m2/
-
-# Git
-.git
-.gitignore
 
 # IDE files
 .idea/
@@ -21,10 +17,14 @@ target/
 .sts4/
 .vscode/
 
+# Git
+.git
+.gitignore
+
 # OS files
 .DS_Store
 Thumbs.db
 
-# Temporary
+# Logs
 logs/
 *.log
