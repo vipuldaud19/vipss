@@ -1,6 +1,9 @@
-HELP.md
-target/
+# Environment variables
+.env
+
+# Maven wrapper
 .mvn/wrapper/maven-wrapper.jar
+target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
